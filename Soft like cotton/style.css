@@ -1,0 +1,80 @@
+body{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	background-color: #FEF8F2;
+	color: #3E3E3E;
+	font-weight: 550;
+}
+
+div{
+	width: 100%;
+}
+
+.GrosTitre{
+	font-weight: 900;
+	font-size: 50px;
+	text-shadow: 1px 1px 1px;
+}
+
+.Citation{
+	margin-bottom: 60px;
+	font-style: italic;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+#Conteneur{
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 45%;
+}
+
+.Logo{
+	border: 2px solid;
+	width: 300px;
+	height: 200px;
+	line-height: 200px;
+	margin: auto;
+	padding: auto;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.Colonne{
+	
+}
+
+.o{
+	width: 45px;
+}
+
+footer{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	height: 150px;
+	background-color: #686868;
+	width: 100%
+}
+
+.Copyright{
+	color: white;
+	animation: 5s infinite alternate slideIn;
+}
+
+@keyframes slideIn{
+	from{
+		margin-left: 100%;
+		width: 300%;
+	}
+	25%{
+		margin-left: 0%;
+		width: 9%;
+	}
+	to{
+		margin-left: 0%;
+		width: 8%;
+	}
+}
